@@ -18,14 +18,14 @@ This project was made using the follow technologies:
   <li><a href="https://expo.io/">Expo</a></li>
 </ul>
 
-# :construction_worker: How to run
+# :construction_worker: Downloading repository
 
 ```bash
-# Clone Repository
+# Clone Repository into your machine
 $ git clone https://github.com/gabrielpulga/proffy.git
 ```
 
-### 📦 Run API
+### 📦 Running API
 
 ```bash
 # Go to server folder
@@ -38,12 +38,12 @@ $ yarn install or npm install
 $ yarn start or npm run start
 ```
 
-Access API at http://localhost:3001/
+To access the API, go to http://localhost:3001/.
 
-### 💻 Run Web Project
+### 💻 Running project on a web browser
 
 ```bash
-# Go to web folder
+# Go to the project's web folder
 $ cd web/
 
 # Install Dependencies
@@ -55,30 +55,30 @@ $ yarn start or npm run start
 
 Go to http://localhost:3000/ to see the result.
 
-### 📱 Run Mobile Project
+### 📱 Running project on mobile
 
-To run the mobile project you need a cellphone with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instaled or a emulator android/ios.
+To run the project on mobile you need a cellphone with the [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) app instaled or an android/ios emulator.
 <br />
-After, fork this repository and clone to your machine. Inside of the project's folder run the following commands:
+After forking this repository and cloning it into your machine, run the following commands inside the project folder :
 
 ```bash
 # Go to mobile folder
 $ cd mobile/
 
-# Install Dependencies
+# Install dependencies
 $ yarn install  or npm install
 
-# Run Aplication
+# Run application
 $ yarn start or npm run start
 ```
 
-Read the QRCode with [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or run on emulator.
+You can read the resulting QRCode with [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or run on a emulator.
 
 # :closed_book: License
 
 Released in 2020.
 
-Made with love by [Gabriel Pulga](https://github.com/gabrielpulga) 🚀.
+Made with passion by [Gabriel Pulga](https://github.com/gabrielpulga) 🚀.
 This project is under the [MIT license](https://github.com/gabrielpulga/nlw2-proffy/blob/master/LICENSE).
 
 Give it a ⭐️ if this project helped you!
