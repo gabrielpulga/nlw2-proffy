@@ -18,27 +18,14 @@ This project was made using the following technologies:
   <li><a href="https://expo.io/">Expo</a></li>
 </ul>
 
-# :construction_worker: Downloading repository
+# :construction_worker: How to run
+
+### :computer: Downloading this project 
 
 ```bash
-# Clone Repository into your machine
+# Clone repository into your machine
 $ git clone https://github.com/gabrielpulga/proffy.git
 ```
-
-### 📦 Running API
-
-```bash
-# Go to server folder
-$ cd backend/
-
-# Install Dependencies
-$ yarn install or npm install
-
-# Run Aplication
-$ yarn start or npm run start
-```
-
-To access the API, go to http://localhost:3001/.
 
 ### 💻 Running project on a web browser
 
@@ -53,7 +40,7 @@ $ yarn install or npm install
 $ yarn start or npm run start
 ```
 
-Go to http://localhost:3000/ to see the result.
+Application located on http://localhost:3000/.
 
 ### 📱 Running project on mobile
 
@@ -72,7 +59,7 @@ $ yarn install  or npm install
 $ yarn start or npm run start
 ```
 
-You can read the resulting QRCode with [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or run on a emulator.
+You can read the resulting QRCode with [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or through an emulator.
 
 # :closed_book: License
 
