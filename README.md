@@ -8,7 +8,7 @@
 
 # :computer: Technologies
 
-This project was made using the follow technologies:
+This project was made using the following technologies:
 
 <ul>
   <li><a href="https://nodejs.org/en/docs/">NodeJs</a></li>
