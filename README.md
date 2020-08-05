@@ -1,9 +1,9 @@
 > :rocket: Project made to connect students to teachers.
 
-# :pushpin: Table of Contents
+# :pushpin: Table of contents
 
 - [Technologies](#computer-technologies)
-- [How to Run](#construction_worker-how-to-run)
+- [How to run](#construction_worker-how-to-run)
 - [License](#closed_book-license)
 
 # :computer: Technologies
@@ -20,7 +20,7 @@ This project was made using the following technologies:
 
 # :construction_worker: How to run
 
-### :computer: Downloading this project 
+### :computer: Downloading project 
 
 ```bash
 # Clone repository into your machine
@@ -30,13 +30,13 @@ $ git clone https://github.com/gabrielpulga/proffy.git
 ### 💻 Running project on a web browser
 
 ```bash
-# Go to the project's web folder
+# Go to project's web folder
 $ cd web/
 
-# Install Dependencies
+# Install dependencies
 $ yarn install or npm install
 
-# Run Aplication
+# Run application
 $ yarn start or npm run start
 ```
 
@@ -46,7 +46,7 @@ Application located on http://localhost:3000/.
 
 To run the project on mobile you need a cellphone with the [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) app instaled or an android/ios emulator.
 <br />
-After forking this repository and cloning it into your machine, run the following commands inside the project folder :
+After forking this repository and making a clone of it in your machine, run the following commands inside the project folder :
 
 ```bash
 # Go to mobile folder
