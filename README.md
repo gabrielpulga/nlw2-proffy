@@ -1,4 +1,4 @@
-> :rocket: Project made to connect teachers to students.
+> :rocket: Project made to connect students to teachers.
 
 # :pushpin: Table of Contents
 
