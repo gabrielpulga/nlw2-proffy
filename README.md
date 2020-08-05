@@ -96,7 +96,7 @@ $ yarn install  or npm install
 $ yarn start or npm run start
 ```
 
-Aferter read the QRCode with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or run on emulator.
+Read the QRCode with the app of [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or run on emulator.
 
 # :closed_book: License
 
