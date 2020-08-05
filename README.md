@@ -76,9 +76,9 @@ Read the QRCode with [expo](https://play.google.com/store/apps/details?id=host.e
 
 # :closed_book: License
 
-Released in 2020 :closed_book: License
+Released in 2020.
 
 Made with love by [Gabriel Pulga](https://github.com/gabrielpulga) 🚀.
 This project is under the [MIT license](https://github.com/gabrielpulga/nlw2-proffy/blob/master/LICENSE).
 
-Give a ⭐️ if this project helped you!
+Give it a ⭐️ if this project helped you!
