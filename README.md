@@ -103,6 +103,6 @@ Aferter read the QRCode with the app of [expo](https://play.google.com/store/app
 Released in 2020 :closed_book: License
 
 Made with love by [Gabriel Pulga](https://github.com/gabrielpulga) 🚀.
-This project is under the [MIT license](https://github.com/gabrielpulga).
+This project is under the [MIT license](https://github.com/gabrielpulga/nlw2-proffy/blob/master/LICENSE).
 
 Give a ⭐️ if this project helped you!
