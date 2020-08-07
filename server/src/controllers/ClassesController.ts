@@ -87,6 +87,7 @@ async create(request: Request, response: Response) {
     
         return response.status(201).send();
     } catch (err) {
+        console.log(err);
         await trx.rollback();
         return response.status(400).json({
             error: 'Unexpected error while creating new class.'
