@@ -23,10 +23,10 @@ export default class Classescontroller {
             });
         }
         
-        const timeInMinutes = convertHourToMinuteS(filters.time as string);
+        const timeInMinutes = convertHourToMinuteS(time as string);
 
         const classes = await db('classes')
-            .where('classes.subject', '=', filters.subject as string);
+            .where('classes.subject', '=', subject as string);
 
         return response.json(classes);
     }
