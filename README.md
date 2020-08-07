@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="https://github.com/gabrielpulga/nlw2-proffy/blob/master/.github/logo.svg" alt"Proffy" title="Proffy" />
+
 > :rocket: Project made to connect students to teachers.
 
 # :pushpin: Table of contents
