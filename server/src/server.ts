@@ -1,10 +1,12 @@
 import express from 'express';
 import routes from './routes';
+import cors from 'cors';
 
 const app = express();
 // tells express to use json as data format
 app.use(express.json());
 app.use(routes);
+app.use(cors());
 
 // GET: buscar ou listar info existente
 // POST: criar info
