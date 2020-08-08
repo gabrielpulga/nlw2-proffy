@@ -10,7 +10,7 @@ function TeacherItem() {
             <img src="https://avatars3.githubusercontent.com/u/61952539?s=460&v=4" alt="Gabriel Pulga"/>
             <div>
                 <strong>Gabriel Pulga</strong>
-                <span>Matemática</span>
+                <span>Eletromagnetismo</span>
             </div>
             </header>
             <p>
