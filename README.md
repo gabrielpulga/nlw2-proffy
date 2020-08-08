@@ -28,7 +28,7 @@ This project was made using the following technologies:
 
 ```bash
 # Clone repository into your machine
-$ git clone https://github.com/gutoisa/proffy.git
+$ git clone https://github.com/gabrielpulga/nlw2-proffy.git
 ```
 
 ### 💻 Running project on a web browser
