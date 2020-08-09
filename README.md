@@ -9,6 +9,7 @@
 - [Technologies](#computer-technologies)
 - [How to run](#construction_worker-how-to-run)
 - [License](#closed_book-license)
+- [ToDo](#pushpin-todo)
 
 # :computer: Technologies
 
@@ -33,9 +34,11 @@ $ git clone https://github.com/gabrielpulga/nlw2-proffy.git
 
 ### 💻 Running project on a web browser
 
+#### Front-end
+
 ```bash
 # Go to project's web folder
-$ cd web/
+$ cd web
 
 # Install dependencies
 $ yarn install or npm install
@@ -44,7 +47,25 @@ $ yarn install or npm install
 $ yarn start or npm run start
 ```
 
-Application located on http://localhost:3000/.
+Front-end UX available at http://localhost:3000/.
+
+#### Back-end
+
+```bash
+# Go to project's server folder
+$ cd server
+
+# Install dependencies
+$ yarn install or npm install
+
+# Run application
+$ yarn start or npm run start
+
+# Make migrations
+$ yarn knex:migrate
+```
+
+API available to be tested on http://localhost:3333/.
 
 ### 📱 Running project on mobile
 
@@ -64,6 +85,17 @@ $ yarn start or npm run start
 ```
 
 <!--You can read the resulting QRCode with [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or through an emulator.-->
+
+# :pushpin: ToDo
+
+ - Splash screen
+ - User Login -> Remember me
+ - User Logout
+ - Succeed Screen
+ - User auth -> Web and Mobile
+ - Password recovery
+ - Teacher profile
+ - Deploy
 
 # :closed_book: License
 
