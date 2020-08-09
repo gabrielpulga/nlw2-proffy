@@ -8,8 +8,8 @@
 
 - [Technologies](#computer-technologies)
 - [How to run](#construction_worker-how-to-run)
+- [ToDo](#memo-todo)
 - [License](#closed_book-license)
-- [ToDo](#pushpin-todo)
 
 # :computer: Technologies
 
@@ -86,7 +86,7 @@ $ yarn start or npm run start
 
 <!--You can read the resulting QRCode with [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) or through an emulator.-->
 
-# :pushpin: ToDo
+# :memo: ToDo
 
  - Splash screen
  - User Login -> Remember me
