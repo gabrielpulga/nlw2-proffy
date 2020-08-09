@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/54639269/89223832-dd796380-d5ad-11ea-9a39-fc852538ca13.png" alt"Proffy" title="Proffy" />
+  <img src="https://github.com/gabrielpulga/nlw2-proffy/blob/master/.github/logo.svg" alt"Proffy" title="Proffy" />
 
  :rocket: *Project made to connect students to teachers.*
   </div>
