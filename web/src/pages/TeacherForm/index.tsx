@@ -10,6 +10,7 @@ import Select from '../../components/Select';
 import api from '../../services/api';
 
 function TeacherForm() {
+
     const [name, setName] = useState('');
     const [avatar, setAvatar] = useState('');
     const [whatsapp, setWhatsapp] = useState('');
@@ -19,31 +20,27 @@ function TeacherForm() {
     const [cost, setCost] = useState('');
 
     const [scheduleItems, setScheduleItems] = useState([
-        {
-            week_day: 0,
-            from: '',
-            to: ''
-        }
+        { week_day: 0, from: '', to: '' }
     ]);
 
-    function addNewScheduleItem() {
 
+    function addNewScheduleItem() {
         setScheduleItems([
             ...scheduleItems,
-            {
-                week_day: 0,
-                from: '',
-                to: ''
-            }
+            { week_day: 0, from: '', to: '' }
         ]);
     }
 
     function setScheduleItemValue(position: number, field: string, value: string) {
         const updatedScheduleItems = scheduleItems.map((scheduleItem, index) => {
             if (index === position) {
-                return { ...scheduleItem, [field]: value };
-            } return scheduleItem;
+                return { ...scheduleItem, [field]: value }
+            }
+
+            return scheduleItem;
+
         });
+
         setScheduleItems(updatedScheduleItems);
     }
 
@@ -51,18 +48,18 @@ function TeacherForm() {
 
         e.preventDefault();
 
-        api.post('classes',{
+        api.post('classes', {
             name,
             avatar,
             whatsapp,
             bio,
             subject,
-            cost : Number(cost),
+            cost: Number(cost),
             schedule: scheduleItems
         }).then(() => {
-            alert('Cadastro realizado com sucesso!')
+            alert('Cadastro realizado com sucesso.');
         }).catch(() => {
-            alert('Erro no cadastro!');
+            alert('Erro ao realizar cadastro.');
         })
     }
 
@@ -76,25 +73,40 @@ function TeacherForm() {
             <main>
                 <form onSubmit={handleCreateClass}>
                     <fieldset>
-                        <legend>Seus dados</legend>
-                        <Input name="name"
+                        <legend>Your info</legend>
+
+                        <Input
+                            name="name"
                             label="Nome completo"
                             value={name}
-                            onChange={(e) => { setName(e.target.value) }} />
-
-                        <Input name="avatar"
+                            onChange={(e) => {
+                                setName(e.target.value)
+                            }}
+                        />
+                        <Input
+                            name="avatar"
                             label="Avatar"
                             value={avatar}
-                            onChange={(e) => { setAvatar(e.target.value) }} />
-
-                        <Input name="whatsapp"
-                            label="WhatsApp"
+                            onChange={(e) => {
+                                setAvatar(e.target.value)
+                            }}
+                        />
+                        <Input
+                            name="whatsapp"
+                            label="Whatsapp"
                             value={whatsapp}
-                            onChange={(e) => { setWhatsapp(e.target.value) }} />
-
-                        <Textarea name="bio" label="Biografia"
+                            onChange={(e) => {
+                                setWhatsapp(e.target.value)
+                            }}
+                        />
+                        <Textarea
+                            name="bio"
+                            label="Biografia"
                             value={bio}
-                            onChange={(e) => { setBio(e.target.value) }} />
+                            onChange={(e) => {
+                                setBio(e.target.value)
+                            }}
+                        />
                     </fieldset>
 
                     <fieldset>
@@ -134,7 +146,7 @@ function TeacherForm() {
                             return (
                                 <div key={scheduleItem.week_day} className="schedule-item">
                                     <Select
-                                        name="subject"
+                                        name="week_day"
                                         label="Dia da semana"
                                         value={scheduleItem.week_day}
                                         onChange={e => setScheduleItemValue(index, 'week_day', e.target.value)}
@@ -150,16 +162,18 @@ function TeacherForm() {
                                     />
                                     <Input
                                         name="from"
-                                        label="Das"
+                                        label="Horário inicial"
                                         type="time"
                                         value={scheduleItem.from}
-                                        onChange={(e) => { setScheduleItemValue(index, 'from', e.target.value) }} />
+                                        onChange={e => setScheduleItemValue(index, 'from', e.target.value)}
+                                    />
                                     <Input
                                         name="to"
-                                        label="Até"
+                                        label="Horário final"
                                         type="time"
                                         value={scheduleItem.to}
-                                        onChange={(e) => { setScheduleItemValue(index, 'to', e.target.value) }} />
+                                        onChange={e => setScheduleItemValue(index, 'to', e.target.value)}
+                                    />
                                 </div>
                             );
                         })}
