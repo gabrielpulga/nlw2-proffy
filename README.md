@@ -71,10 +71,9 @@ API available to be tested on http://localhost:3333/.
 
 To run the project on mobile you need a cellphone with the [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) app instaled or an android/ios emulator.
 <br />
-After forking this repository and making a clone of it in your machine, run the following commands inside the project folder :
 
 ```bash
-# Go to mobile folder
+# Go to project's mobile folder
 $ cd mobile/
 
 # Install dependencies
