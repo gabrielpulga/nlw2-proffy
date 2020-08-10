@@ -14,8 +14,8 @@
 
 .teacher-item header img {
     width: 8rem;
-    height: 8 rem;
-    border-radius: 50%;
+    height: 8rem;
+    border-radius: 4rem;
 }
 
 .teacher-item header div {
@@ -76,28 +76,6 @@
 }
 
 @media (min-width: 700px) {
-    #page-teacher-list {
-        max-width: 100%;
-    }
-
-    #search-teachers {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 16px;
-        position: absolute;
-        bottom: -28px;
-    }
-
-    #search-teachers .input-block + .input-block {
-        margin-top: 0%;
-    }
-
-    #page-teacher-list main {
-        padding: 32px;
-        max-width: 740px;
-        margin: 0 auto;
-    }
-
     .teacher-item header, .teacher-item footer {
         padding: 3.2rem;
     }
@@ -111,13 +89,13 @@
         margin-left: 1.6rem;
     }
 
-    .teacher-item footer button {
-        width: 245px;
+    .teacher-item footer a {
+        width: 24.5rem;
         font-size: 1.6rem;
         justify-content: center;
     }
 
-    .teacher-item footer button img {
+    .teacher-item footer a img {
         margin-right: 1.6rem;
     }
 }
